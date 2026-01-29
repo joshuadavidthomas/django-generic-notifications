@@ -22,7 +22,7 @@ A flexible, multi-channel notification system for Django applications with built
 
 ## Installation
 
-All instruction in this document use [uv](https://github.com/astral-sh/uv), but of course pip or Poetry will also work just fine.
+All instructions in this document use [uv](https://github.com/astral-sh/uv), but of course pip or Poetry will also work just fine.
 
 ```bash
 uv add django-generic-notifications
