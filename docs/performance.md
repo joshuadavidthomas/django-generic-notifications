@@ -77,12 +77,13 @@ notifications = get_notifications(user).prefetch_related(
 )
 ```
 
-**Warning**: This approach has serious limitations:
-
-- You need to know the target's type and relationships in advance
-- Only works when ALL notifications in the queryset have the same target model type
-- It will raise `AttributeError` with heterogeneous targets (different model types) - if even one notification has a different target type that lacks the specified relationship, the entire query will fail
-- Each additional relationship level requires explicit prefetching
+> [!WARNING]
+> This approach has serious limitations:
+>
+> - You need to know the target's type and relationships in advance
+> - Only works when ALL notifications in the queryset have the same target model type
+> - It will raise `AttributeError` with heterogeneous targets (different model types) - if even one notification has a different target type that lacks the specified relationship, the entire query will fail
+> - Each additional relationship level requires explicit prefetching
 
 #### For best performance
 
