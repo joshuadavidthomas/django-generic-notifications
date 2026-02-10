@@ -180,3 +180,7 @@ A huge thanks goes to https://dskrpt.de/ for sponsoring development of django-ge
 ## License
 
 MIT License - see LICENSE file for details.
+
+## Support
+
+Commercial support is available via [Loopwerk](https://www.loopwerk.io/open-source/support/).
