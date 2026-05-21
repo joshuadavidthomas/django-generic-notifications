@@ -2,9 +2,9 @@
 name = "django-generic-notifications-example"
 version = "1.0.0"
 description = "Example app for django-generic-notifications"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
-    "django>=5.0",
+    "django>=6.0",
     "django-generic-notifications",
 ]
 
